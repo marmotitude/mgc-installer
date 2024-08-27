@@ -22,7 +22,7 @@ Before running the script, ensure that you have the following tools installed:
 To install the MGC CLI using this script, run the following command:
 
 ```bash
-sudo -v ; curl https://mgc-cli.br-se1.magaluobjects.com/install.sh | sudo bash
+sudo -v ; curl https://raw.githubusercontent.com/marmotitude/mgc-installer/main/install.sh | sudo bash
 ```
 
 Tool Verification: The script checks for the presence of supported tools (tar) to extract the downloaded archive.
