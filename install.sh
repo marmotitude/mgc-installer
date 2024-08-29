@@ -12,7 +12,7 @@ set -e
 #when adding a tool to the list make sure to also add its corresponding command further in the script
 unzip_tools_list=('tar')
 
-usage() { echo "Usage: sudo -v ; curl https://mgc-cli.br-se1.magaluobjects.com/install.sh | sudo bash " 1>&2; exit 1; }
+usage() { echo "Usage: sudo -v ; curl https://raw.githubusercontent.com/marmotitude/mgc-installer/main/install.sh | sudo bash " 1>&2; exit 1; }
 
 
 #create tmp directory and move to it with macOS compatibility fallback
